@@ -2,8 +2,10 @@ h2,{
     font-family: 'Reggae One', cursive;
 
     
+}.letsplay{
+    font-size: larger;
 }
-.container1 , .container4{
+.container1 , .container4,.blackjack-row-2,.blackjack-row-3{
     display: flex;
     flex-wrap: wrap;
    flex-direction: row;
@@ -15,7 +17,11 @@ h2,{
 
 
 
-}.container4{
+}.blackjack-row-2{
+    margin: 2px;
+    height: 60px;
+}
+.container4{
     justify-content: space-around;
 }.pads{
     padding: 5px;
@@ -97,3 +103,25 @@ box-shadow: 0px 10px 50px;
     color: darkblue;
 }
 
+.blackflex{
+
+width: 49%;
+height: 350px;
+
+text-align: center;
+
+margin:5px ;
+background-color: darkgreen;
+color:aliceblue
+}
+
+
+
+
+
+.blackjack-row-1{
+    display:flex;
+}table,th,td{
+    padding: 5px;
+   border: 1px solid black;
+}
